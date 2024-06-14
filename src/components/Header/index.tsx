@@ -30,7 +30,6 @@ function Header(props: HeaderProps) {
           <Flex direction="row" align="center" gap={2}>
             <Heading>{isGenderMen ? '👕' : '👚'}</Heading>
             <Heading>Store</Heading>
-            <Spacer />
             <ButtonGroup>
               <Button
                 isActive={isGenderMen}
